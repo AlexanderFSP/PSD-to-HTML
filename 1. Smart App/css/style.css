@@ -1,0 +1,54 @@
+/* Спецификация */
+body {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Стили */
+#header-top {
+    padding: 25px 0px;
+}
+
+a.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3c3d42;
+}
+
+#header-top ul {
+    padding-left: 16px;
+    padding-top: 6px;
+}
+
+#header-top li a {
+    font-size: 14px;
+    color: #747a7a;
+    padding-right: 26px;
+}
+
+#contacts {
+   padding-top: 25px;
+   color: #3c3d42;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+#contacts span {
+    margin-left: 10px;
+}
+
+.slider {
+    background: url("../img/slider-bg.png") no-repeat center top / cover;
+    height: 100vh;
+}
+
+#features {
+    height: 100px;
+}
