@@ -18,6 +18,12 @@ a.btn {
     transition: .3s;
 }
 
+i {
+    line-height: 24px;
+    font-size: 18px;
+    color: #3d3e43;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -91,11 +97,51 @@ a.navbar-brand {
 }
 
 #features {
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 #features h2 {
     color: #636c6c;
     text-align: center;
+    padding-bottom: 30px;
 }
 
+#features-center {
+    padding: 100px 0;
+}
+
+.features-tab__item a {
+    padding: 30px 0px;
+    border-right: 2px solid #dbe2e2;
+}
+
+.features-tab__item a.active {
+    border-right: 5px solid #5dca88;
+}
+
+.features-tab__item i {
+    font-size: 48px;
+}
+
+.features-tab__item a.active i {
+    color: #5dca88;
+}
+
+.features-tab__item h5 {
+    font-size: 20px;
+    color: #636c6c;
+}
+
+.features-content__item i {
+    font-size: 220px;
+    color: #5dca88;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.features-content__item h4 {
+    color: #636c6c;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+}

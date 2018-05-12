@@ -30,7 +30,7 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Screenshot</a>
@@ -43,10 +43,10 @@
                 <div class="col-lg-5">
                     <div id="contacts" class="row">
                         <div class="col-lg-5">
-                            <i class="fa fa-phone-square"></i><span style="margin-left: 10px;">800-123-456</span>
+                            <i class="fas fa-phone-square"></i><span style="margin-left: 10px;">800-123-456</span>
                         </div>
                         <div class="col-lg-7">
-                            <i class="fa fa-envelope"></i><span style="margin-left: 10px;">smallaps@gmail.com</span>
+                            <i class="fas fa-envelope"></i><span style="margin-left: 10px;">smallaps@gmail.com</span>
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,89 @@
 
     <section id="features">
         <div class="container">
-                <h2>Feature title goes here</h2>
+            <div class="row justify-content-center">
+                <h2 class="col-lg-6">Feature title goes here</h2>
+                <p class="col-lg-8 text-center">Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
+            </div>
+            <div id="features-center" class="row row-flex justify-content-between">
+                <div class="col-lg-4">
+                    <ul class="features-tab nav navbar-nav" role="tablist">
+                        <li class="features-tab__item nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#title1" aria-controls="title1" role="tab">
+                                <div class="row align-items-center">
+                                    <i class="fas fa-heart col-lg-3"></i>
+                                    <h5 class="col-lg-9">Heading title one</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="features-tab__item nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#title2" aria-controls="title2" role="tab">
+                                <div class="row align-items-center">
+                                    <i class="fas fa-briefcase col-lg-3"></i>
+                                    <h5 class="col-lg-9">Heading title one</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="features-tab__item nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#title3" aria-controls="title3" role="tab">
+                                <div class="row align-items-center">
+                                    <i class="fas fa-leaf col-lg-3"></i>
+                                    <h5 class="col-lg-9">Heading title one</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="features-tab__item nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#title4" aria-controls="title4" role="tab">
+                                <div class="row align-items-center">
+                                    <i class="fas fa-calendar-alt col-lg-3"></i>
+                                    <h5 class="col-lg-9">Heading title one</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="features-tab__item nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#title5" aria-controls="title5" role="tab">
+                                <div class="row align-items-center">
+                                    <i class="fas fa-umbrella col-lg-3"></i>
+                                    <h5 class="col-lg-9">Heading title one</h4>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-7">
+                    <div class="features-content tab-content">
+                        <div class="features-content__item tab-pane fade show active" id="title1" role="tabpanel">
+                            <i class="col-lg-12 fas fa-heart"></i>
+                            <h4>Heading Feature title goes here</h4>
+                            <p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.</p>
+                        </div>
+                        <div class="features-content__item tab-pane fade" id="title2" role="tabpanel">
+                            <i class="fas fa-briefcase col-lg-12"></i>
+                            <h4>Heading Feature title goes here</h4>
+                            <p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.</p>
+                        </div>
+                        <div class="features-content__item tab-pane fade" id="title3" role="tabpanel">
+                            <i class="fas fa-leaf col-lg-12"></i>
+                            <h4>Heading Feature title goes here</h4>
+                            <p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.</p>
+                        </div>
+                        <div class="features-content__item tab-pane fade" id="title4" role="tabpanel">
+                            <i class="fas fa-calendar-alt col-lg-12"></i>
+                            <h4>Heading Feature title goes here</h4>
+                            <p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.</p>
+                        </div>
+                        <div class="features-content__item tab-pane fade" id="title5" role="tabpanel">
+                            <i class="fas fa-umbrella col-lg-12"></i>
+                            <h4>Heading Feature title goes here</h4>
+                            <p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.</p>
+                        </div>
+                    </div>         
+                </div>
+            </div>
         </div>
     </section>
+
+    <section style="height: 100px; background-color: #f2f9fe;"> <!-- # --> </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
