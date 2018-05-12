@@ -98,7 +98,7 @@ a.navbar-brand {
 
 /* features */
 #features {
-    margin-top: 90px;
+    padding-top: 60px;
 }
 
 #features h2 {
@@ -148,8 +148,8 @@ a.navbar-brand {
 
 /* product-feature */
 #product-feature {
-    background-color: #f2f9fe;
     padding: 60px 0;
+    background-color: #f2f9fe;
 }
 
 .product-feature__learn h2 {
@@ -182,7 +182,34 @@ a.navbar-brand {
     box-shadow: 0 15px 20px rgba(71,29,120,.4);
 }
 
+.product-feature__phone img {
+    max-height: 650px;
+}
+
 /* gallery */
 #gallery {
-    padding: 90px;
+    padding-top: 60px;
+}
+
+#gallery h2 {
+    color: #636c6c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#myCarousel {
+    margin: 60px 0;
+}
+
+#myCarousel p {
+    margin: 40px 0 60px 0;
+}
+
+#myCarousel img {
+    max-height: 450px;
+}
+/* product-geature */
+#product-geature {
+    padding: 60px 0;
+    background-color: #f2f9fe;
 }
