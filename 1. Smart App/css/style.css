@@ -147,42 +147,42 @@ a.navbar-brand {
 }
 
 /* product-feature */
-#product-feature {
+#product-feature, #product-geature {
     padding: 60px 0;
     background-color: #f2f9fe;
 }
 
-.product-feature__learn h2 {
+.product-feature__learn h2, .product-geature__learn h2 {
     color: #5dca88;
 }
 
-.product-feature__learn hr {
+.product-feature__learn hr, .product-geature__learn hr {
     width: 100px;
     float: left;
 }
 
-.product-feature__learn span {
+.product-feature__learn span, .product-geature__learn span {
     color: #8c9494;
     font-weight: 400;
 }
 
-.product-feature__learn p {
+.product-feature__learn p, .product-geature__learn p {
     margin: 50px 0;
 }
 
-.product-feature__learn a.btn {
+.product-feature__learn a.btn, .product-geature__learn a.btn {
     border-color: #aab2b5;
     border-width: 2px;
     color: #636c6c;
 }
 
-.product-feature__learn a.btn:hover {
+.product-feature__learn a.btn:hover, .product-geature__learn a.btn:hover {
     border-color: #fff;
     color: #fff;
     box-shadow: 0 15px 20px rgba(71,29,120,.4);
 }
 
-.product-feature__phone img {
+.product-feature__phone img, .product-geature__learn img {
     max-height: 650px;
 }
 
@@ -210,6 +210,5 @@ a.navbar-brand {
 }
 /* product-geature */
 #product-geature {
-    padding: 60px 0;
     background-color: #f2f9fe;
 }
