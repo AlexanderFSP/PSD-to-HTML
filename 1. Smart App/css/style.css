@@ -1,4 +1,4 @@
-/* Спецификация */
+/* Specification */
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -60,14 +60,14 @@ a.navbar-brand {
 }
 
 #header-top ul {
-    padding-left: 16px;
+    padding-left: 10px;
     padding-top: 6px;
 }
 
 #header-top li a {
     font-size: 14px;
     color: #747a7a;
-    padding-right: 26px;
+    padding-right: 15px;
 }
 
 #contacts {
@@ -329,6 +329,10 @@ footer li {
     margin-right: 25px;
 }
 
+footer li:last-child {
+    margin-right: 0;
+}
+
 .footer-center-icons i {
     color: #5d6461;
     font-size: 36px;
@@ -342,3 +346,14 @@ footer li {
     color: #8c9494;
     text-decoration: none;
 }
+
+/* Media queries */
+
+/* [ xs ] Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { }
+
+/* [ sm ] Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) and (max-width: 767.98px)  { }
+
+/* [ md ] Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { }
