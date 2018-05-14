@@ -25,37 +25,39 @@
 </head>
 <body>
     <header>
-        <div class="header-menu container">
-            <div class="row justify-content-md-between align-items-center">
-                <div class="col-12 col-md-7">
-                    <nav class="navbar navbar-expand">
-                        <div class="row">
-                            <div class="col-12 col-md-4 text-center">
-                                <a class="navbar-brand" href="#">Smallapps</a>
+        <div class="header-menu container-fluid">
+            <div class="container">
+                <div class="row justify-content-md-between align-items-center">
+                    <div class="col-12 col-md-7">
+                        <nav id="menu" class="navbar navbar-expand">
+                            <div class="row align-self-center">
+                                <div class="col-12 col-md-4 text-center">
+                                    <a class="navbar-brand" href="#">Smallapps</a>
+                                </div>
+                                <div class="col-12 col-md-8 ">
+                                    <ul class="nav navbar-nav d-flex justify-content-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="header">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#features">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#product-feature">Screenshot</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#gallery">Gallery</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-12 col-md-8">
-                                <ul class="nav navbar-nav d-flex justify-content-center">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#features-anchor">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#product-feature">Screenshot</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#gallery-anchor">Gallery</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="contacts d-flex justify-content-center">
+                            <span><i class="fas fa-phone-square"></i>800-123-456</span>
+                            <span><i class="fas fa-envelope"></i>smallaps@gmail.com</span>
                         </div>
-                    </nav>
-                </div>
-                <div class="col-12 col-md-5">
-                    <div class="contacts d-flex justify-content-center">
-                        <span><i class="fas fa-phone-square"></i>800-123-456</span>
-                        <span><i class="fas fa-envelope"></i>smallaps@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -77,7 +79,7 @@
     <section id="features">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 id="features-anchor" class="col-md-8 col-lg-6 text-center">Heading Feature title goes here</h2>
+                <h2 class="col-md-8 col-lg-6 text-center">Heading Feature title goes here</h2>
                 <p class="col-md-11 col-lg-8 text-center">Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
             </div>
             <div id="features-center" class="row justify-content-between">
@@ -178,7 +180,7 @@
     <section id="gallery">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 id="gallery-anchor" class="col-md-7">Our Latest screenshots gallery</h2>
+                <h2 class="col-md-7">Our Latest screenshots gallery</h2>
                 <p class="col-md-8 text-center">Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
             </div>
             <div id="gallery-carousel" class="carousel slide" data-ride="carousel">
@@ -305,8 +307,8 @@
                 <h2 class="col-12 text-center"><i class="far fa-envelope"></i>Subscribe our Newsletter</h2> 
                 <form class="col-12 text-center" action="#" method="GET">
                     <div class="row justify-content-center">
-                        <input class="col-8" type="email" name="email" id="email" placeholder="your email address">
-                        <input class="col-2" type="button" value="Submit">
+                        <input class="col-9 col-md-8" type="email" name="email" id="email" placeholder="your email address">
+                        <input class="col-3 col-md-2" type="button" value="Submit">
                     </div>
                 </form>
             </div>
@@ -365,8 +367,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/page-scroll-to-id.js"></script>
 </body>
 </html>
