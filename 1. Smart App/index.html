@@ -26,28 +26,34 @@
 <body>
     <header>
         <div class="header-menu container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-7">
+            <div class="row justify-content-md-between align-items-center">
+                <div class="col-12 col-md-7">
                     <nav class="navbar navbar-expand">
-                        <a class="navbar-brand" href="#">Smallapps</a>
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#features-anchor">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#product-feature">Screenshot</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#gallery-anchor">Gallery</a>
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-12 col-md-4 text-center">
+                                <a class="navbar-brand" href="#">Smallapps</a>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <ul class="nav navbar-nav d-flex justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#features-anchor">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#product-feature">Screenshot</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#gallery-anchor">Gallery</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </nav>
                 </div>
-                <div class="col-md-5">
-                    <div class="contacts">
+                <div class="col-12 col-md-5">
+                    <div class="contacts d-flex justify-content-center">
                         <span><i class="fas fa-phone-square"></i>800-123-456</span>
                         <span><i class="fas fa-envelope"></i>smallaps@gmail.com</span>
                     </div>
@@ -57,7 +63,7 @@
         <div class="slider">
             <div class="container">
                 <div class="slider__content row align-items-center">
-                    <div class="col-md-6 col-lg-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <h2>Perfect app landing page<br><span>Duis bibendum diam<span></h2>
                         <p>Donec elementum mollis magna id aliquet. Etiam eleifend urna eget semsagittis feugiat.
                             Pellentesque habitant morbi tristique senectus etnetus et malesuada fames ac turpis egestas.</p>
@@ -71,11 +77,11 @@
     <section id="features">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 id="features-anchor" class="col-md-6 text-center">Heading Feature title goes here</h2>
-                <p class="col-md-8 text-center">Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
+                <h2 id="features-anchor" class="col-md-8 col-lg-6 text-center">Heading Feature title goes here</h2>
+                <p class="col-md-11 col-lg-8 text-center">Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
             </div>
             <div id="features-center" class="row justify-content-between">
-                <div class="col-md-4">
+                <div class="col-3 col-md-5 col-lg-4">
                     <ul class="features-tab nav navbar-nav" role="tablist">
                         <li class="features-tab__item nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#title1" aria-controls="title1" role="tab">
@@ -119,7 +125,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-7">
+                <div class="col-9 col-md-7">
                     <div class="features-content tab-content">
                         <div class="features-content__item tab-pane fade show active" id="title1" role="tabpanel">
                             <i class="col-md-12 fas fa-heart text-center"></i>
@@ -155,14 +161,14 @@
     <section id="product-feature">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="product-feature__learn col-md-6 align-self-center">
+                <div class="product-feature__learn col-7 col-md-6 align-self-center">
                     <h2>Onec ultrices ultricies tellus perfect screens here<br>
                         <hr><br>
                         <span>Duis bibendum diam non erat facilisis tincidunt.</span></h2>
                     <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. </p>
                     <a class="btn" href="#">Learn more</a>
                 </div>
-                <div class="product-feature__phone col-md-4">
+                <div class="product-feature__phone col-5 col-md-4">
                     <img class="img-fluid" src="img/product-feature-phone.png" alt="iPhone 5c login">
                 </div>
             </div>
@@ -240,11 +246,11 @@
 
     <section id="product-geature">
         <div class="container">
-                <div class="row justify-content-between">
-                    <div class="product-geature__phones col-md-6">
+                <div class="row justify-content-between align-items-center">
+                    <div class="product-geature__phones col align-self-center">
                         <img class="img-fluid" src="img/product-geature-phones.png" alt="iPhone's 5c login">
                     </div>
-                    <div class="product-geature__learn col-md-6 align-self-center">
+                    <div class="product-geature__learn col align-self-center">
                         <h2>Onec ultrices ultricies tellus perfect screens here<br><hr><br><span>Duis bibendum diam non erat facilisis tincidunt.</span></h2>
                         <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. </p>
                         <a class="btn" href="#">Learn more</a>
@@ -296,11 +302,11 @@
     <section id="newsletter">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 class="col-md-12 text-center"><i class="far fa-envelope"></i>Subscribe our Newsletter</h2> 
-                <form class="col-md-12 text-center" action="#" method="GET">
+                <h2 class="col-12 text-center"><i class="far fa-envelope"></i>Subscribe our Newsletter</h2> 
+                <form class="col-12 text-center" action="#" method="GET">
                     <div class="row justify-content-center">
-                        <input class="col-md-7" type="email" name="email" id="email" placeholder="your email address">
-                        <input class="col-md-2" type="button" value="Submit">
+                        <input class="col-8" type="email" name="email" id="email" placeholder="your email address">
+                        <input class="col-2" type="button" value="Submit">
                     </div>
                 </form>
             </div>
@@ -310,7 +316,7 @@
     <footer>
         <div class="container">
                 <div class="row text-center">
-                    <h2 class="col-md-4">Say Hi, Get In Touch</h2>
+                    <h2 class="col-md-5 col-lg-4">Say Hi, Get In Touch</h2>
                 </div>
                 <div class="row justify-content-center footer-center-icons">
                     <ul class="col-md-4">
