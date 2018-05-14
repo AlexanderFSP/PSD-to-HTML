@@ -46,6 +46,10 @@ h2 {
     padding: 65px 0;
 }
 
+img, a, i {
+    animation-delay: 75ms;
+}
+
 /* <header> */
 .header-menu {
     background-color: #fff;
