@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Neucha&subset=cyrillic');
+
+body {
+    background-color: #6597d6;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    font-family: 'Skranji', cursive;
+}
+
+.nav-item i {
+    margin-right: 10px;
+}
+
+/* Modal */
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 70px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+/* <section id="description"> */
+#description .container {
+    background: url("../img/description-bg.png") no-repeat top center / cover;
+    height: 550px;
+}
+
+.description__logo {
+    height: 550px;
+}
+
+.logo__coins {
+    position: absolute;
+    height: 95px;
+    width: 95px;
+}
+
+#dogecoin {
+    margin-top: 100px;
+}
+
+#bitcoin {
+    margin-left: 250px;
+    margin-top: 92px;
+}
+
+.description__content {
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(66, 66, 66, 0.9);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.crypto-faucet {
+    font-family: 'Prosto One', cursive;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97FF6B;
+    background-color: #111;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+#freenem-logo {
+    color: #26abe3;
+}
+
+#ruCaptcha-logo {
+    color: #FFF;
+    background-color: #4d565f;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+#ruCaptcha-logo i {
+    margin-right: 5px;
+}
+/* </section> */
+
+#main-menu .container {
+    height: 60px;
+}
