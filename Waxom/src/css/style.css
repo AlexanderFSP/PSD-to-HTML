@@ -1,0 +1,65 @@
+/* Спецификация */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #c7b299;
+}
+
+/* Стили */
+
+/* header.container-fluid */
+
+header {
+  background: url(../img/photo.jpg) no-repeat center center / cover;
+  height: 100vh;
+  padding-top: 40px;
+}
+  #logotype img {
+    width: 64px;
+    height: 56px;
+  }
+  #logotype span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+  }
+  #logotype a:hover {
+    color: #fff;
+  }
+  
+  #header__navigation nav ul {
+    list-style: none;
+    display: flex;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+    #header__navigation nav ul li {
+      margin-right: 25px;
+    }
+    #header__navigation nav ul li:last-child {
+      margin-right: 0px;
+    }
+      #header__navigation nav ul li a {
+        padding: 0;
+      }
+      #header__navigation nav ul li:nth-child(2) a {
+        color: #c7b299;
+      }
+  ul#user-tools {
+    list-style: none;
+    display: flex;
+  }
+    ul#user-tools li i {
+      color: #fff;
+      margin-right: 20px;
+    }
+
+/* /header.container-fluid */
